@@ -3,14 +3,14 @@ MIMICSQL,https://github.com/wangpinggl/TREQS
 Spider,https://yale-lily.github.io/spider
 Sparc,https://yale-lily.github.io/sparc
 Wikisql,https://github.com/salesforce/WikiSQL
-"Academic (MAS), IMDB, Yelp",https://github.com/jkkummerfeld/text2sql-data/tree/master/data
+Academic (MAS), IMDB, Yelp,https://github.com/jkkummerfeld/text2sql-data/tree/master/data
 ,
 ,
 ,
-SPIDER,"Spider is a large-scale complex and cross-domain semantic parsing and text-to-SQL dataset annotated by 11 Yale students. The goal of the Spider challenge is to develop natural language interfaces to cross-domain databases. It consists of 10,181 questions and 5,693 unique complex SQL queries on 200 databases with multiple tables covering 138 different domains. In Spider 1.0, different complex SQL queries and databases appear in train and test sets. To do well on it, systems must generalize well to not only new SQL queries but also new database schemas."
-SPARC,"SParC is built upon the Spider dataset. Comparing to other existing context-dependent semantic parsing/text-to-SQL datasets such as ATIS, it demonstrates:
+"SPIDER,""Spider is a large-scale complex and cross-domain semantic parsing and text-to-SQL dataset annotated by 11 Yale students. The goal of the Spider challenge is to develop natural language interfaces to cross-domain databases. It consists of 10,181 questions and 5,693 unique complex SQL queries on 200 databases with multiple tables covering 138 different domains. In Spider 1.0, different complex SQL queries and databases appear in train and test sets. To do well on it, systems must generalize well to not only new SQL queries but also new database schemas."""
+"SPARC,""SParC is built upon the Spider dataset. Comparing to other existing context-dependent semantic parsing/text-to-SQL datasets such as ATIS, it demonstrates:"
 complex contextual dependencies (annotated by 15 Yale computer science students)
 has greater semantic diversity due to complex coverage of SQL logic patterns in the Spider dataset.
 requires generalization to new domains due to its cross-domain nature and the unseen databasest time.
 "
-MIMICSQL,"MIMICSQL is created based on the publicly available real-world de-identified Medical Information Mart for Intensive Care III (MIMIC III) dataset. In order to generated more realistic questions, each patient is randomly assigned a synthetic name, which should not be used to identify any patients."
+MIMICSQL,MIMICSQL is created based on the publicly available real-world de-identified Medical Information Mart for Intensive Care III (MIMIC III) dataset. In order to generated more realistic questions, each patient is randomly assigned a synthetic name, which should not be used to identify any patients."""
